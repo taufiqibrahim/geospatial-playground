@@ -19,6 +19,8 @@ osmium extract --bbox=106.50028,-6.500447,107.100219,-5.913358 \
 
 ## Load to Postgres Using osm2pgsql
 
+https://osm2pgsql.org/doc/manual.html
+
 ```bash
 osm2pgsql \
 --username $OSM2PGSQL_USER --database $OSM2PGSQL_DB --host $OSM2PGSQL_HOST --port $OSM2PGSQL_PORT --password \
@@ -31,6 +33,8 @@ osm2pgsql \
 ```
 
 ## Load Using pgosm flex
+
+https://github.com/rustprooflabs/pgosm-flex
 
 Create database
 ```sql
